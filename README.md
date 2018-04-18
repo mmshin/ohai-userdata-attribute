@@ -4,10 +4,7 @@
 
 ***
 
-Add the lines below to your EC2 Userdata
+#### Add the lines below to your EC2 Userdata. You can add as many variables as you want as long as you follow the format. The custom plugin checks for the word "ohai" and strips the information after it.
 
 `ohai|PROJ_ENV=ENVIRONMENT|project=PROJECT_NAME`
 
-*You can add as many variables as you want as long as you follow the format*
-
-The custom plugin checks for the word "ohai" and strips the information after it.
